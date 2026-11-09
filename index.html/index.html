@@ -1,51 +1,86 @@
 <!DOCTYPE html>
-<html lang="te">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tirupati Help Guide</title>
+<title>Tirupati Help Guide - Darshan, Rooms, Bus, Train & Food</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#fff8ec;color:#222}
-header{background:#b91c1c;color:#fff;padding:22px 16px;text-align:center}
-header h1{margin:0;font-size:28px}header p{margin:6px 0 0;opacity:.9}
-.nav{display:flex;gap:8px;overflow:auto;padding:12px;background:#fff;position:sticky;top:0}
-.nav a{background:#fef3c7;padding:10px 14px;border-radius:20px;text-decoration:none;color:#7c2d12;font-weight:bold;white-space:nowrap}
-.box{margin:14px;background:#fff;border-radius:14px;padding:16px;box-shadow:0 2px 10px #0001}
-.box h2{margin:0 0 8px;color:#b91c1c}
-.card{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px;margin:10px 0}
-.card b{color:#9a3412}.btn{display:block;text-align:center;background:#16a34a;color:#fff;padding:14px;border-radius:10px;text-decoration:none;font-weight:bold;margin-top:10px}
-.warn{background:#fef2f2;border:1px solid #fecaca;padding:12px;border-radius:10px}
-footer{text-align:center;padding:16px;color:#777;font-size:13px}
+body{font-family:Arial,sans-serif;margin:0;background:#fff8f0}
+.header{background:#d32f2f;color:white;text-align:center;padding:25px 15px}
+.header h1{margin:0;font-size:32px}
+.header p{margin:8px 0 0;font-size:17px}
+.nav{display:flex;gap:10px;overflow-x:auto;padding:15px;background:white;position:sticky;top:0}
+.nav a{background:#fff3cd;color:#7a3b00;padding:10px 18px;border-radius:25px;text-decoration:none;font-weight:bold;white-space:nowrap}
+.section{max-width:800px;margin:20px auto;padding:0 15px}
+h2{color:#c62828;font-size:26px}
+.card{background:#fff7e6;border:1px solid #ffe0b2;border-radius:12px;padding:16px;margin-bottom:14px}
+.card h3{margin:0 0 8px;color:#8d2b00}
+.card p{margin:0;line-height:1.6;color:#333}
+.btn{display:block;text-align:center;background:#1faa59;color:white;padding:14px;border-radius:10px;text-decoration:none;font-weight:bold;margin-top:15px}
 </style>
 </head>
 <body>
-<header><h1>🛕 Tirupati Help Guide</h1><p>Darshan • Rooms • Bus • Train • Food - Anni Okka Chota</p></header>
-<div class="nav"><a href="#darshan">Darshan</a><a href="#rooms">Rooms</a><a href="#bus">Bus</a><a href="#train">Train</a><a href="#food">Food</a><a href="#tips">Tips</a></div>
+<div class="header">
+<h1>🛕 Tirupati Help Guide</h1>
+<p>Darshan • Rooms • Bus • Train • Food - Everything in One Place</p>
+</div>
 
-<div class="box" id="darshan"><h2>1. Darshan Tickets</h2>
-<div class="card"><b>Special Entry Darshan - Rs.300</b><br>TTD official website / app lo 3 months mundu book chesukovali. Time slot prakaram vellali.</div>
-<div class="card"><b>Free Darshan - Sarva Darshan</b><br>Time: 12-20 hours padavachu. Tirupati lo Vaikuntam Queue Complex lo line. Aadhaar compulsory.</div>
-<div class="card"><b>Divya Darshan - Nadichi Vache Variki</b><br>Alipiri / Srivari Mettu nundi nadichi vasthe free token istharu. Darshan time thakkuva.</div>
-<a class="btn" href="https://ttdevasthanams.ap.gov.in" target="_blank">TTD Official Website Open Chey</a></div>
+<div class="nav">
+<a href="#darshan">Darshan</a><a href="#rooms">Rooms</a><a href="#bus">Bus</a><a href="#train">Train</a><a href="#food">Food</a>
+</div>
 
-<div class="box" id="rooms"><h2>2. Rooms / Stay</h2>
-<div class="card"><b>TTD Rooms:</b> Rs.50 - Rs.1500 varaku. Online lo 60 days mundu book cheyali. Tirumala lo CRO office deggara kuda current booking untadi.</div>
-<div class="card"><b>Private Hotels Tirupati:</b> Rs.800 - Rs.2500. Station / Leela Mahal Circle deggara ekkuva hotels untayi.</div>
-<div class="warn"><b>⚠️ Mosam:</b> Fake websites lo rooms book cheyoddu. TTD site lo matrame book cheyandi.</div></div>
+<div class="section" id="darshan">
+<h2>1. Darshan Tickets</h2>
+<div class="card">
+<h3>Special Entry Darshan - Rs.300</h3>
+<p>Book 3 months in advance on the official TTD website or app. You must arrive according to your selected time slot.</p>
+</div>
+<div class="card">
+<h3>Free Darshan - Sarva Darshan</h3>
+<p>Waiting time can be 12 to 20 hours. Join the queue at Vaikuntam Queue Complex in Tirupati. Aadhaar card is compulsory.</p>
+</div>
+<div class="card">
+<h3>Divya Darshan - For Pilgrims Who Walk</h3>
+<p>If you walk via Alipiri or Srivari Mettu, you will receive a free token. Your darshan waiting time will be much shorter.</p>
+</div>
+<a class="btn" href="https://ttdevasthanams.ap.gov.in" target="_blank">Open TTD Official Website</a>
+</div>
 
-<div class="box" id="bus"><h2>3. Bus - Tirupati to Tirumala</h2>
-<div class="card"><b>APSRTC Bus:</b> Tirupati Bus Stand / Railway Station nundi prathi 2 nimishalaki bus untadi.<br><b>Ticket:</b> Adult Rs.110, Child Rs.60 (approx)<br><b>Time:</b> 1 Hour</div>
-<div class="card"><b>Alipiri nundi:</b> Nadichi vellalante 9 KM - 3 to 4 Hours. Steps: 3550.</div></div>
+<div class="section" id="rooms">
+<h2>2. Rooms & Accommodation</h2>
+<div class="card">
+<h3>TTD Rooms</h3>
+<p>Book online on the TTD website. Rooms are available in Tirupati and Tirumala. Book early during weekends and festivals.</p>
+</div>
+<div class="card">
+<h3>Private Hotels</h3>
+<p>Budget rooms start from Rs.800 in Tirupati. Choose hotels near Leela Mahal Circle or KT Road for easy bus access.</p>
+</div>
+</div>
 
-<div class="box" id="train"><h2>4. Train</h2>
-<div class="card">Tirupati Station Code: <b>TPTY</b><br>Renigunta: <b>RU</b> - Tirupati ki 10 KM<br>Station nundi Temple ki Auto Rs.150-200, Bus Rs.20</div></div>
+<div class="section" id="bus">
+<h2>3. Bus Guide</h2>
+<div class="card">
+<h3>Tirupati to Tirumala</h3>
+<p>APSRTC buses run every 2 minutes from Tirupati Bus Station and Railway Station. Ticket: Rs.110 approx. Journey: 45 minutes.</p>
+</div>
+</div>
 
-<div class="box" id="food"><h2>5. Food - Annaprasadam</h2>
-<div class="card"><b>Tirumala:</b> Matrusri Tarigonda Vengamamba Annaprasadam - Free. Roju 3 times.<br><b>Tirupati:</b> Srinivasam Complex lo kuda free meals untayi.</div></div>
+<div class="section" id="train">
+<h2>4. Train Guide</h2>
+<div class="card">
+<h3>Nearest Stations</h3>
+<p>Tirupati (TPTY) is the main station. Renigunta (RU) is 10 km away. Book return tickets in advance.</p>
+</div>
+</div>
 
-<div class="box" id="tips"><h2>6. Important Tips</h2>
-<div class="card">✅ Aadhaar Card original theesukellandi<br>✅ Mobile Tirumala lo allowed kadu - locker lo pettandi<br>✅ Saturday / Sunday rush ekkuva untadi<br>✅ Luggage ki Tirupati lo ne cloak room vadandi<br>✅ Emergency: TTD Help Line - 0877-2233333</div></div>
-
-<footer>Made for Pilgrims ❤️ | Tirupati Help Guide</footer>
+<div class="section" id="food">
+<h2>5. Food</h2>
+<div class="card">
+<h3>Free Food - Annadanam</h3>
+<p>Free meals are provided at Tarigonda Vengamamba Annadanam Complex in Tirumala. Timings: 9 AM to 10 PM.</p>
+</div>
+</div>
+<p style="text-align:center;padding:20px;color:#888">Made with devotion for Tirupati Pilgrims</p>
 </body>
 </html>
